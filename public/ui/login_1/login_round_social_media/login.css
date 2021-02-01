@@ -1,0 +1,119 @@
+/*Roboto font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+/*reset rules*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    margin: auto;
+    background-color: white;
+    max-width: 450px;
+    min-height: 100vh;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+}
+
+@media only screen and (max-width: 768px) {
+    .login {
+        min-width: 100%;
+    }
+}
+
+.logo {
+    margin: auto;
+    display: block;
+}
+
+.access-label {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.field {
+    font-family: 'Nunito', sans-serif !important;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+.field-label {
+    display: block;
+    margin: 4px auto;
+    font-size: inherit;
+}
+
+.field-input {
+    border: none;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    font-size: inherit;
+}
+
+.access-button {
+    display: block;
+    width: 100%;
+    background-color: #A64141;
+    color: white;
+    border: none;
+    padding: 12px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.forget {
+    text-align: center;
+    display: block;
+    color: #B0B0B0;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.social-label {
+    font-size: 16px;
+    text-align: center;
+    color: #B0B0B0;
+    margin-bottom: 20px;
+}
+
+.round-social-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.round-social-button {
+    margin: auto 10px;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.round-gmail-icon {
+    border: 1px solid #DADADA;
+}
+
+.footer {
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 16px;
+}
+
+.request-acivation-label {
+    color: #3AC2BC;
+    text-decoration: none;
+}

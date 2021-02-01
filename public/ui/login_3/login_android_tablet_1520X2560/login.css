@@ -1,0 +1,126 @@
+/*roboto font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    margin: auto;
+    background-color: #ff606a;
+    background-image: url(assets/android_tablet_1520X2560.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center center;
+    max-width: 1520px;
+    height: 100vh;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1520px) {
+    .login {
+        background-size: cover;
+    }
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    max-width: 280px;
+}
+
+.fields-centered-container {
+    text-align: center;
+}
+
+.round-input {
+    display: block;
+    background-color: transparent;
+    border-radius: 22px;
+    border: 1px solid white;
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    max-width: 450px;
+    color: white;
+    font-size: 18px;
+    padding: 18px 16px;
+    margin: 32px auto;
+    transition: all 0.3s ease;
+}
+
+.round-input:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.round-input::placeholder {
+    color: white;
+}
+
+.round-input::-ms-input-placeholder {
+    color: white;
+}
+
+.access-button {
+    background-color: white;
+    color: #FF606A;
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 5px black;
+    width: 100%;
+    max-width: 450px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 22px;
+    transition: box-shadow 0.2s ease;
+}
+
+.access-button:hover {
+    box-shadow: 5px 5px 6px black;
+}
+
+.social-label {
+    margin-top: 32px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.round-social-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.round-social-button {
+    z-index: 1;
+    margin: auto 10px;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.round-social-button:hover {
+    height: 72px;
+    width: 72px;
+}
+
+.round-gmail-icon {
+    background-color: white;
+    border: 1px solid #DADADA;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
