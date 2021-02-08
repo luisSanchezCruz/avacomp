@@ -117,7 +117,7 @@ function App() {
 
 
         <li className="list-group-item">
-          Login Desktop (Responsive)
+          Login web (Responsive)
           <ul className="list-group">
             <li className="list-group-item">
               <a href="./ui/login_desktop/login/login.html">Main Round social media</a>
@@ -127,17 +127,62 @@ function App() {
             </li>
          
             <li className="list-group-item">
+              <a href="./ui/login_desktop/login_basic_dark_mode/login.html">Basic Dark Mode</a>
+            </li>
+            <li className="list-group-item">
               <a href="./ui/login_desktop/login_dark_mode/login.html">Dark Mode</a>
             </li>
             <li className="list-group-item">
-              <a href="./ui/login_desktop/login_dark_mode_left/login.html">Dark Mode Left</a>
+              <a href="./ui/login_desktop/login_loading/login.html">loading</a>
             </li>
             <li className="list-group-item">
-              <a href="./ui/login_desktop/login_left/login.html">Login Left</a>
+              <a href="./ui/login_desktop/login_validation/login.html">Validation</a>
             </li>
          
           </ul>
         </li>
+
+
+
+        <li className="list-group-item">
+          Dashbord mobile
+          <ul className="list-group">
+            <li className="list-group-item">
+              <a href="./ui/dashboard/mobile/index.html">Main</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/dashboard/mobile/red.html">red</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/dashboard/mobile/purple.html">Purple</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/dashboard/mobile/green.html">Green</a>
+            </li>
+          </ul>
+        </li>
+
+
+        <li className="list-group-item">
+          Dashbord Desktop
+          <ul className="list-group">
+            <li className="list-group-item">
+              <a href="./ui/dashboard/desktop/index.html">Main</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/dashboard/desktop/red.html">red</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/dashboard/desktop/purple.html">Purple</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/dashboard/desktop/green.html">Green</a>
+            </li>
+          </ul>
+        </li>
+
+
+
 
 
       </ul>

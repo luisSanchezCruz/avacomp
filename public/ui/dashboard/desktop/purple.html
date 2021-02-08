@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard desktop</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+         :root {
+            --primary-color: #571ff0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="desktop-dashboard-container">
+
+        <div class="dashboard-appbar">
+            <img class="dashboard-brand" src="assets/Logo-Dashboard.png" />
+            <div class="dashboard-right-side">
+                <!--search-->
+                <div class="search-bar">
+                    <div class="search-bar-lead-icon">
+                        <img class="search-bar-icon" src="assets/search.png" />
+                    </div>
+                    <input class="search-bar-input" placeholder="Busqueda..." type="text" />
+                </div>
+
+                <img class="dashboard-appbar-avatar" src="assets/avatar.png" />
+                <div class="dashboard-appbar-more-content-container" id="dashboard-appbar-more-content-container">
+                    <img class="dashboard-appbar-more-content" src="assets/more_content.png" />
+                </div>
+
+            </div>
+        </div>
+        <div class="navigation">
+            <a class="navigation-item">Menu</a>
+            <a class="navigation-item">Bandeja de entrada</a>
+            <a class="navigation-item">Calendario</a>
+            <a class="navigation-item">Reportes</a>
+            <a class="navigation-item">Ayuda</a>
+        </div>
+
+        <!--panel-->
+        <div class="panel" id="panel">
+            <div class="panel-header">
+
+                <img class="panel-avatar" src="assets/avatar.png">
+                <p class="panel-label">Lisbeth.ortega@gmail.com</p>
+            </div>
+            <ul class="panel-list">
+                <li class="panel-list-item">Bandeja de entrada</li>
+                <li class="panel-list-item">Calendario</li>
+                <li class="panel-list-item">Reportes</li>
+                <li class="panel-list-item">Inventario</li>
+                <li class="panel-list-item">Facturacion</li>
+                <li class="panel-list-item">Users</li>
+                <li class="panel-list-item">Ayuda</li>
+                <li class="panel-list-item">Cerrar sesion</li>
+            </ul>
+        </div>
+
+        <!--main context-->
+        <div class="main-content">
+
+        </div>
+
+    </div>
+</body>
+
+</html>

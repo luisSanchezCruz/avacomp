@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+         :root {
+            --primary-color: #f01f1f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--mobile dashboard-->
+    <div class="dashboard-container">
+
+        <div class="dashboard-appbar">
+
+            <div class="dashboard-appbar-left-side">
+
+                <!--burger-menu -->
+                <div class="menu-burger" id="menu-burger">
+                    <img src="assets/menu.png" class="menu-burger-icon" />
+                </div>
+
+                <!--search-->
+                <div class="search-bar">
+                    <div class="search-bar-lead-icon">
+                        <img class="search-bar-icon" src="assets/search.png" />
+                    </div>
+                    <input class="search-bar-input" placeholder="Busqueda..." type="text" />
+                </div>
+
+            </div>
+
+            <div class="dashboard-appbar-right-side">
+                <img class="dashboard-appbar-avatar" src="assets/avatar.png" />
+                <div class="dashboard-appbar-more-content-container" id="dashboard-appbar-more-content-container">
+                    <img class="dashboard-appbar-more-content" src="assets/more_content.png" />
+                </div>
+            </div>
+        </div>
+        <!--more options-->
+
+        <ul class="options-list" id="options-list">
+            <li class="options-list-item">Facturacion</li>
+            <li class="options-list-item">Reportes</li>
+            <li class="options-list-item">Calendario</li>
+            <li class="options-list-item">Users</li>
+            <li class="options-list-item">Ayuda</li>
+            <li class="options-list-item">Cerrar sesion</li>
+
+        </ul>
+
+        <!--main content-->
+        <div class="dashboard-content">
+
+            <!--sections-->
+            <div class="modules">
+                <div class="module">
+                    <img src="assets/servicio.png" alt="">
+                    <p>Servicios</p>
+                </div>
+                <div class="module">
+                    <img src="assets/ventas.png" alt="">
+                    <p>Ventas</p>
+                </div>
+                <div class="module">
+                    <img src="assets/facturas.png" alt="">
+                    <p>Facturas</p>
+                </div>
+                <div class="module">
+                    <img src="assets/clientes.png" alt="">
+                    <p>Clientes</p>
+                </div>
+                <div class="module">
+                    <img src="assets/ticktes.png" alt="">
+                    <p>Tickets</p>
+                </div>
+                <div class="module">
+                    <img src="assets/pagos.png" alt="">
+                    <p>Pagos</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!--footer-->
+        <div class="dashboard-footer">
+            <div class="button-container">
+                <img class="button-icon" src="assets/home.svg" alt="">
+            </div>
+            <div class="button-container">
+                <img class="button-icon" src="assets/settings.svg" alt="">
+            </div>
+            <div class="button-container">
+                <img class="button-icon" src="assets/salida.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--drawer container-->
+    <div class="drawer-container" id="drawer-container">
+        <div class="drawer" id="drawer">
+            <div class="drawer-header">
+                <div class="drawer-close" id="drawer-close">X</div>
+                <img class="drawer-avatar" src="assets/avatar.png">
+                <p class="drawer-label">Lisbeth.ortega@gmail.com</p>
+            </div>
+            <ul class="drawer-list">
+                <li class="drawer-list-item">Bandeja de entrada</li>
+                <li class="drawer-list-item">Calendario</li>
+                <li class="drawer-list-item">Reportes</li>
+                <li class="drawer-list-item">Inventario</li>
+                <li class="drawer-list-item">Facturacion</li>
+                <li class="drawer-list-item">Users</li>
+                <li class="drawer-list-item">Ayuda</li>
+                <li class="drawer-list-item">Cerrar sesion</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

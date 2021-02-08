@@ -1,0 +1,191 @@
+/*Roboto font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+/*reset  rules*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: #375C8C;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.desktop-dashboard-container {
+    height: 100vh;
+    position: relative;
+}
+
+.desktop-dashboard-container>.dashboard-appbar {
+    max-width: 100vw;
+    height: 56px;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.desktop-dashboard-container .dashboard-brand {
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.desktop-dashboard-container .dashboard-right-side {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-dashboard-container .search-bar {
+    display: flex;
+    background: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.desktop-dashboard-container .search-bar-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 3px;
+    /* max-width: 200px; */
+}
+
+.desktop-dashboard-container .search-bar-icon-container,
+.desktop-dashboard-container .search-bar-lead-icon {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.desktop-dashboard-container .search-bar-icon-container:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.desktop-dashboard-container .dashboard-appbar-avatar {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.desktop-dashboard-container .dashboard-appbar-more-content-container {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.desktop-dashboard-container .dashboard-appbar-more-content-container:hover {
+    box-shadow: 0px 0px 8px white;
+}
+
+.desktop-dashboard-container .dashboard-appbar-more-content {
+    height: 25px;
+    display: inline-block;
+}
+
+.desktop-dashboard-container .navigation {
+    background-color: var(--primary-color);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.desktop-dashboard-container .navigation-item {
+    display: inline-block;
+    padding: 12px 8px;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.desktop-dashboard-container .navigation-item:hover,
+.desktop-dashboard-container .navigation-item:hover {
+    background-color: lightslategray;
+}
+
+.desktop-dashboard-container .panel {
+    width: 350px;
+    height: 100%;
+    background-color: #ffffff;
+    border: 1px solid lightslategray;
+}
+
+.desktop-dashboard-container .panel-header {
+    background-color: var(--primary-color);
+}
+
+.desktop-dashboard-container .panel-avatar {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.desktop-dashboard-container .panel-label {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+}
+
+.desktop-dashboard-container .panel-list {
+    width: 100%;
+}
+
+.desktop-dashboard-container .panel-list-item {
+    display: block;
+    padding: 8px 12px;
+    height: 30px;
+    border-bottom: 1px solid lightslategray;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.1s ease-in-out;
+}
+
+.desktop-dashboard-container .panel-list-item:active,
+.desktop-dashboard-container .panel-list-item:hover {
+    background: lightslategray;
+    color: white;
+}
+
+.desktop-dashboard-container .main-content {
+    border: 1px solid red;
+    height: 800px;
+    width: 800px;
+    margin-top: 56px;
+    margin-left: 300px;
+    position: absolute;
+}
