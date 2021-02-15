@@ -1,0 +1,122 @@
+/*Roboto font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.screen {
+    display: block;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    position: relative;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 50px;
+    max-width: 600px;
+}
+
+.screen .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.screen .close:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+
+/*fields*/
+
+.screen .field {
+    margin: 20px auto;
+}
+
+.screen .text-field {
+    font-size: 16px;
+    box-sizing: border-box;
+    min-width: 100%;
+    border: 1px solid #B3BCC9;
+    border-radius: 4px;
+    height: 40px;
+    padding: 8px;
+    color: black;
+}
+
+.screen .input-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+
+/*radio*/
+
+.screen .label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    display: block;
+    margin: 10px auto;
+}
+
+.screen .radio-container {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.screen .radio-container .radio-input {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+}
+
+.screen .radio-container .radio-label {
+    font-size: 16px;
+}
+
+.select {
+    font-size: 16px;
+    min-width: 100%;
+    /* border: 1px solid #B3BCC9; */
+    border-radius: 3px;
+    height: 40px;
+    padding: 8px;
+    /* color: #B3BCC9; */
+}
+
+
+/*actions*/
+
+.screen .actions {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.screen .actions .action-button {
+    background-color: rgb(59, 184, 59);
+    color: white;
+    font-size: 16px;
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    /* font-weight: bold; */
+    margin: auto 2.5px;
+}
+
+.screen .actions .action-button.red {
+    background-color: red;
+}

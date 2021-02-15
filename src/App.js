@@ -182,6 +182,20 @@ function App() {
         </li>
 
 
+        <li className="list-group-item">
+          Mantenimiento
+          <ul className="list-group">
+            <li className="list-group-item">
+              <a href="./ui/mantenimiento/tabla/index.html">Tabla</a>
+            </li>
+            <li className="list-group-item">
+              <a href="./ui/mantenimiento/form/index.html">Ventana</a>
+            </li>
+          </ul>
+        </li>
+
+
+
 
 
 
@@ -191,3 +205,10 @@ function App() {
 }
 
 export default App;
+
+
+/*
+ red #f01f1f
+ purple 571ff0
+ gree 2e871c
+*/

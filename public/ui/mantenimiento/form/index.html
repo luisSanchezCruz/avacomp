@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="screen">
+        <img class="close" src="assets/close.png" alt="">
+
+        <div class="field">
+            <label class="input-label" for="">Name:</label>
+            <input type="text" class="text-field" placeholder="name" />
+        </div>
+        <div class="field">
+            <label class="input-label" for="">Last Name:</label>
+            <input type="text" class="text-field" placeholder="last name" />
+        </div>
+        <div class="field">
+            <label class="input-label" for="">Email:</label>
+            <input type="email" class="text-field" placeholder="email" />
+        </div>
+        <div class="field">
+            <label class="input-label" for="">Telefono:</label>
+            <input type="tel" class="text-field" placeholder="(809)9745-5425" />
+        </div>
+        <div class="field">
+            <label class="input-label" for="">Fecha de nacimiento:</label>
+            <input type="date" class="text-field" placeholder="" />
+        </div>
+        <div class="field">
+            <label class="input-label" for="">Password:</label>
+            <input type="password" class="text-field" placeholder="password" />
+        </div>
+        <div class="field">
+            <label class="input-label" for="">File:</label>
+            <input type="file" class="text-field" placeholder="File" />
+        </div>
+
+        <label for="" class="label">Genero:</label>
+        <div class="radio-container">
+            <input class="radio-input" name="gender" type="radio" />
+            <label class="radio-label" for="">Masculino</label>
+        </div>
+
+        <div class="radio-container">
+            <input class="radio-input" name="gender" type="radio" />
+            <label class="radio-label" for="">Femenino</label>
+        </div>
+
+
+        <label for="" class="label">Tipo de Usuario:</label>
+        <div class="radio-container">
+            <input class="radio-input" name="color" type="checkbox" />
+            <label class="radio-label" for="">Admin</label>
+        </div>
+
+        <div class="radio-container">
+            <input class="radio-input" name="color" type="checkbox" />
+            <label class="radio-label" for="">Normal user</label>
+        </div>
+
+        <label for="" class="label">Plan:</label>
+        <select class="select">
+            <option value="1">Basico</option>
+            <option value="2"> Oro</option>
+            <option value="2">Paltinium</option> 
+        </select>
+
+        <div class="actions">
+            <button class="action-button red">
+                Cancel
+            </button>
+            <button class="action-button green">
+                Sunmit
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>

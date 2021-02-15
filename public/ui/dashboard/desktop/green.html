@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard desktop</title>
     <link rel="stylesheet" href="style.css" />
-
-
     <style>
          :root {
             --primary-color: #2e871c;
@@ -17,7 +15,7 @@
 
 <body>
     <div class="desktop-dashboard-container">
-
+        <!--appbar-->
         <div class="dashboard-appbar">
             <img class="dashboard-brand" src="assets/Logo-Dashboard.png" />
             <div class="dashboard-right-side">
@@ -33,6 +31,25 @@
                 <div class="dashboard-appbar-more-content-container" id="dashboard-appbar-more-content-container">
                     <img class="dashboard-appbar-more-content" src="assets/more_content.png" />
                 </div>
+                <ul class="more-options-menu" id="more-options-menu">
+                    <li class="more-options-list-item">
+                        <a href="">Facturacion</a>
+                    </li>
+                    <li class="more-options-list-item">
+                        <a href="">Reportes</a>
+                    </li>
+                    <li class="more-options-list-item">
+                        <a href="">Users</a>
+                    </li>
+                    <li class="more-options-list-item">
+                        <a href="">
+                            Ayuda
+                        </a>
+                    </li>
+                    <li class="more-options-list-item">
+                        <a href="">Cerrar session</a>
+                    </li>
+                </ul>
 
             </div>
         </div>
@@ -44,31 +61,68 @@
             <a class="navigation-item">Ayuda</a>
         </div>
 
-        <!--panel-->
-        <div class="panel" id="panel">
-            <div class="panel-header">
+        <div class="main-content-container">
 
-                <img class="panel-avatar" src="assets/avatar.png">
-                <p class="panel-label">Lisbeth.ortega@gmail.com</p>
+            <!--panel-->
+            <div class="panel" id="panel">
+                <div class="panel-header">
+                    <img class="panel-avatar" src="assets/avatar.png">
+                    <p class="panel-label">Lisbeth.ortega@gmail.com</p>
+                </div>
+                <ul class="panel-list">
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Bandeja de entrada</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Calendario</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Reportes</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Inventario</span>
+                    </li>
+                    <li class="panel-list-item submenu">
+                        <img class="panel-list-item-chevron" src="assets/point.png" />
+                        <span>Personal</span>
+                    </li>
+                    <li class="panel-list-item submenu">
+                        <img class="panel-list-item-chevron" src="assets/point.png" />
+                        <span>Empresarial</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Facturacion</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Users</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Ayuda</span>
+                    </li>
+                    <li class="panel-list-item">
+                        <img class="panel-list-item-chevron" src="assets/chevron-right.png" />
+                        <span>Cerrar sesion</span>
+                    </li>
+
+                </ul>
             </div>
-            <ul class="panel-list">
-                <li class="panel-list-item">Bandeja de entrada</li>
-                <li class="panel-list-item">Calendario</li>
-                <li class="panel-list-item">Reportes</li>
-                <li class="panel-list-item">Inventario</li>
-                <li class="panel-list-item">Facturacion</li>
-                <li class="panel-list-item">Users</li>
-                <li class="panel-list-item">Ayuda</li>
-                <li class="panel-list-item">Cerrar sesion</li>
-            </ul>
+
+            <!--main context-->
+            <div class="main-content">
+                <!--WARNING using frame just for ilustration but  you should add your element directly-->
+                <iframe src="../../mantenimiento/tabla/index.html" style="width: 100%;height: 100%; border: none; margin: 0; padding: 0; box-sizing: border-box;"></iframe>
+            </div>
         </div>
-
-        <!--main context-->
-        <div class="main-content">
-
-        </div>
-
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
